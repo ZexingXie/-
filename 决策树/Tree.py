@@ -21,6 +21,7 @@ def SameAs(labels,dataSet):
             return False
     return True
 
+
 # def choose(dataSet,labels):
 #     import numpy as np
 #     return np.random.random_integers(0,len(labels)-1)
@@ -61,6 +62,10 @@ def choose_gain(dataSet,labels):
 
 def splitDataSet(dataSet,value,attr_index):
     # 返回 attr_index==value的dataSet，并且已经去掉该attr
+
+
+
+def splitDataSet(dataSet,value,attr_index):
     retDataSet = []
     for featVec in dataSet:
         if featVec[attr_index] == value:
@@ -80,7 +85,7 @@ def createTree(dataSet,labels):
     elif len(labels)==0 or SameAs(labels,dataSet):
         return Counter(yList).most_common(1)[0][0]
     else:
-        attr_index = choose_gain(dataSet,labels)
+        attr_index = choose(dataSet,labels)
         myTree = {labels[attr_index]: {}}  # 分类结果以字典形式保存
         featValues=[example[attr_index] for example in dataSet]
         uniqueVals=set(featValues)
