@@ -1,1 +1,3 @@
 **/__pycache__
+data/
+决策树/Mnist/*.csv
