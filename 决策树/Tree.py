@@ -55,13 +55,10 @@ def choose_gain(dataSet,labels):
     return bestAttrIndex
 
 
-    for attr in labels:
-        # 分别计算每个属性的gain指数
-        pass
+#     for attr in labels:
+#         # 分别计算每个属性的gain指数
+#         pass
 
-
-def splitDataSet(dataSet,value,attr_index):
-    # 返回 attr_index==value的dataSet，并且已经去掉该attr
 
 
 
