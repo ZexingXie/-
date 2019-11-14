@@ -104,7 +104,7 @@ if __name__ == '__main__':
     # x_test, y_test = t
     yt = []
     ytest = []
-    for r in range(1,1000):
+    for r in range(1,50):
         # Model = AdaBoost(x_train,y_train,r)
         y,Model = AdaBoost(x_train,y_train,r)
 
@@ -118,8 +118,7 @@ if __name__ == '__main__':
     plt.plot(ytest)
     plt.show()
 
-
-
+    print("E_IN:", Model.accurate(x_train, y_train))
     print("E_OUT:",Model.accurate(x_test,y_test))
 
 

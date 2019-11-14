@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc429b85-e18f-4787-9e95-7cab65c0e5a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/决策树/sklearn_adaboost.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/决策树/adaboost-implementation" beforeDir="false" afterPath="$PROJECT_DIR$/决策树/adaboost-implementation" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/决策树/adaboost-implementation/adaboost.py" beforeDir="false" afterPath="$PROJECT_DIR$/决策树/adaboost-implementation/adaboost.py" afterDir="false" />
@@ -19,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/决策树/adaboost-implementation/adaboost.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
               <folding>
                 <element signature="e#229#240#0" expanded="true" />
                 <element signature="e#289#1072#0" />
@@ -30,18 +31,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/决策树/adaboostBase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2904">
-              <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+            <state relative-caret-position="625">
+              <caret line="120" column="50" selection-start-line="120" selection-start-column="50" selection-end-line="120" selection-end-column="50" />
+              <folding>
+                <element signature="e#32#68#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/决策树/data/test.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/决策树/sklearn_adaboost.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -85,12 +96,13 @@
         <option value="$PROJECT_DIR$/决策树/decision_stump.py" />
         <option value="$PROJECT_DIR$/决策树/Tree.py" />
         <option value="$PROJECT_DIR$/决策树/adaboostBase.py" />
+        <option value="$PROJECT_DIR$/决策树/sklearn_adaboost.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="328" />
-    <option name="y" value="199" />
+    <option name="x" value="411" />
+    <option name="y" value="171" />
     <option name="width" value="2637" />
     <option name="height" value="1888" />
   </component>
@@ -100,7 +112,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -123,11 +134,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../TrueLearning/deadlinesProject" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -141,7 +153,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.adaboostBase">
+  <component name="RunManager" selected="Python.sklearn_adaboost">
     <configuration name="Tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="每天学点机器学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -226,8 +238,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="sklearn_adaboost" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="每天学点机器学习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/决策树" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/决策树/sklearn_adaboost.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sklearn_adaboost" />
         <item itemvalue="Python.adaboostBase" />
         <item itemvalue="Python.Tree" />
         <item itemvalue="Python.adaboost" />
@@ -249,15 +283,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="328" y="199" width="2637" height="1888" extended-state="0" />
-    <editor active="true" />
+    <frame x="411" y="171" width="2637" height="1888" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16080402" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3540036" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3540036" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39915714" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -278,6 +311,11 @@
           <url>file://$PROJECT_DIR$/决策树/adaboostBase.py</url>
           <line>106</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/决策树/adaboostBase.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -316,8 +354,18 @@
         <state relative-caret-position="-2485" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/决策树/data/test.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/决策树/adaboost-implementation/adaboost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#229#240#0" expanded="true" />
+            <element signature="e#289#1072#0" />
+            <element signature="e#1139#2191#0" />
+            <element signature="e#2258#3597#0" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/决策树/decision_stump.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -336,23 +384,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/决策树/adaboost-implementation/adaboost.py">
+    <entry file="file://$PROJECT_DIR$/决策树/data/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/决策树/adaboostBase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="625">
+          <caret line="120" column="50" selection-start-line="120" selection-start-column="50" selection-end-line="120" selection-end-column="50" />
           <folding>
-            <element signature="e#229#240#0" expanded="true" />
-            <element signature="e#289#1072#0" />
-            <element signature="e#1139#2191#0" />
-            <element signature="e#2258#3597#0" />
+            <element signature="e#32#68#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/决策树/adaboostBase.py">
+    <entry file="file://$PROJECT_DIR$/决策树/sklearn_adaboost.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2904">
-          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+        <state relative-caret-position="627">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
